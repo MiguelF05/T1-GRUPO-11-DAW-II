@@ -1,9 +1,9 @@
 server:
-  port: 8083
+  port: 8300
 
 spring:
   application:
-    name: ms-notificaciones
+    name: ms-cuentas
 
 eureka:
   client:

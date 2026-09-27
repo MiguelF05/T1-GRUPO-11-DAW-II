@@ -4,6 +4,9 @@ server:
 spring:
   application:
     name: ms-recargas
+  rabbitmq:
+    host: 192.168.18.91
+    port: 5672
 
 eureka:
   client:
