@@ -4,6 +4,12 @@ server:
 spring:
   application:
     name: ms-recargas
+ HEAD
+
+  rabbitmq:
+    host: 192.168.18.91
+    port: 5672
+ 0e87ccc15336a0aab705c93235319cb40681e889
 
 eureka:
   client:
@@ -21,4 +27,8 @@ resilience4j:
         slidingWindowSize: 5
         failureRateThreshold: 60
         waitDurationInOpenState: 30s
+ HEAD
         permittedNumberOfCallsInHalfOpenState: 1
+
+        permittedNumberOfCallsInHalfOpenState: 1
+ 0e87ccc15336a0aab705c93235319cb40681e889

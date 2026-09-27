@@ -11,5 +11,8 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://localhost:8761/eureka/
+HEAD
   instance:
     prefer-ip-address: true
+
+0e87ccc15336a0aab705c93235319cb40681e889
