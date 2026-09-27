@@ -4,25 +4,11 @@ server:
 spring:
   application:
     name: ms-notificaciones
-  datasource:
-    url: jdbc:h2:mem:riesgodb
-    driverClassName: org.h2.Driver
-    username: sa
-    password:
-  jpa:
-    database-platform: org.hibernate.dialect.H2Dialect
-    hibernate:
-      ddl-auto: update
-    show-sql: true
   rabbitmq:
     host: localhost
     port: 5672
     username: guest
     password: guest
-
-# Umbral de aprobacion: 70% del saldo disponible
-riesgo:
-  umbral: 0.7
 
 eureka:
   client:
