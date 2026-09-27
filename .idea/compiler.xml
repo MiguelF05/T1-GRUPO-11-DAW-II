@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-server" />
+        <module name="ms-tarjetas" />
+        <module name="ms-recargas" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ms-notificaciones.main" target="17" />
+      <module name="ms-notificaciones.test" target="17" />
+      <module name="ms-riesgo" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka-server" options="-parameters" />
+      <module name="ms-notificaciones.main" options="-parameters" />
+      <module name="ms-notificaciones.test" options="-parameters" />
+      <module name="ms-recargas" options="-parameters" />
+      <module name="ms-riesgo" options="-parameters" />
+      <module name="ms-tarjetas" options="-parameters" />
+    </option>
+  </component>
+</project>

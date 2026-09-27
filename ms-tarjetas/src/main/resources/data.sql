@@ -1,0 +1,2 @@
+INSERT INTO tarjetas (nom_titular, saldo_asignado, saldo_disponible) VALUES ('Victor Serrano', 1000.0, 1000.0);
+INSERT INTO tarjetas (nom_titular, saldo_asignado, saldo_disponible) VALUES ('Maria Lopez', 500.0, 500.0);
