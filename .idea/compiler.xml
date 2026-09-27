@@ -15,7 +15,6 @@
     <bytecodeTargetLevel>
       <module name="ms-notificaciones.main" target="17" />
       <module name="ms-notificaciones.test" target="17" />
-      <module name="ms-riesgo" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -25,6 +24,8 @@
       <module name="ms-notificaciones.test" options="-parameters" />
       <module name="ms-recargas" options="-parameters" />
       <module name="ms-riesgo" options="-parameters" />
+      <module name="ms-riesgo.main" options="-parameters" />
+      <module name="ms-riesgo.test" options="-parameters" />
       <module name="ms-tarjetas" options="-parameters" />
     </option>
   </component>
